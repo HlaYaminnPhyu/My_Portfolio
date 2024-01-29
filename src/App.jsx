@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Work from './pages/Work'
+import About from './pages/About'
+import Contact from './pages/Contact'
 
 
 
@@ -15,10 +17,12 @@ const App = () => {
     <div className=' min-h-full text-white'>
     
       <Navbar/>
-      {/* <Home/> */}
-      {/* <Services /> */}
-      <Work/>
+      <Home/>
+      <About/>
       
+      <Work/>
+      <Services />
+      <Contact/>
       
     
     </div>

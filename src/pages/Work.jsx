@@ -5,6 +5,7 @@ import "animate.css";
 const Work = () => {
   return (
     <div id="work" className=" h-full w-full bg">
+      {/* <div className=' absolute h-full w-full hero-overlay'></div> */}
       <div className="z-10 flex justify-center items-center ">
         <div className=" w-full mx-10">
           <div className=" my-20 text-center">
@@ -29,7 +30,7 @@ const Work = () => {
                   quis hic. Doloremque?
                 </p>
                 <button className=" px-7 mt-10 relative select-none regAni text-red-400 bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid glassmorphic border-t border-l rounded-lg p-2 cursor-pointer">
-                  See More
+                  See Detail
                 </button>
 
                 {/* <div className="container">
@@ -62,7 +63,7 @@ const Work = () => {
                   quis hic. Doloremque?
                 </p>
                 <button className="px-7 mt-10 relative select-none regAni text-red-400 bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid glassmorphic border-t border-l rounded-lg p-2 cursor-pointer">
-                  See More
+                  See Detail
                 </button>
               </div>
             </div>
@@ -76,7 +77,7 @@ const Work = () => {
                   quis hic. Doloremque?
                 </p>
                 <button className="px-7 mt-10 relative select-none regAni text-red-400 bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid glassmorphic border-t border-l rounded-lg p-2 cursor-pointer">
-                  See More
+                  See Detail
                 </button>
               </div>
               <div className="flex-initial w-7/12 p-12 bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">

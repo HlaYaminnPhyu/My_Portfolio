@@ -6,10 +6,11 @@ const Home = () => {
   return (
     <section className=" h-app hero-bg relative" id="home">
       <div className=" absolute h-full w-full"></div>
+      
 
-      <div className="z-10 flex h-screen items-center justify-center container mx-auto gap-3">
+      <div className="z-10 flex flex-row h-screen items-center justify-center container mx-auto gap-3">
         <div className=" text-left">
-          <h1 className=" text-[120px] mb-[30px] animate__animated animate__slideInLeft">
+          <h1 className=" text-[120px] mb-[30px] animate__animated animate__fadeInLeft">
             Hello
           </h1>
           <p className=" text-xl animate__slow animate__animated animate__slideInLeft">
