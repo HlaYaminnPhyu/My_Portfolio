@@ -8,7 +8,7 @@ const Services = () => {
     visible: { scale: 1 },
   };
   return (
-    <section className="my-20 " id="services">
+    <section className="my-10" id="services">
     <div className="mb-20">
       {/* Header */}
       <div className="mb-20">

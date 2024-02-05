@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../images/myImage.jpg";
+import myImg from "../images/my1.jpg";
 import {
   FaInstagram,
   FaFacebook,
@@ -9,13 +9,13 @@ import {
 
 const About = () => {
   return (
-    <div className=" min-h-full bg-[#1f1f1f]">
+    <div id="about" className=" min-h-full bg-[#1f1f1f]">
       <div className="bg-[#232323] flex items-center my-20 py-10 justify-around">
         <div className="relative">
-          <div className="  outline-[#fdae16] outline outline-[5px] w-[350px] h-[350px]"></div>
+          <div className="  outline-[#fdae16] outline outline-[5px] w-[350px] h-[427px]"></div>
           <img
             src={myImg}
-            className=" bottom-5 right-5 absolute w-[350px] h-[350px]"
+            className=" bottom-5 right-5 absolute"
             alt=""
           />
         </div>

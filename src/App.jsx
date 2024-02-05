@@ -6,6 +6,7 @@ import Services from './pages/Services'
 import Work from './pages/Work'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 
 
@@ -14,17 +15,19 @@ import Contact from './pages/Contact'
 
 const App = () => {
   return (
-    <div className=' min-h-full text-white'>
-    
+    <div className=" min-h-[100vh] text-white">
+   
       <Navbar/>
       <Home/>
-      <About/>
+      {/* <About/> */}
       
-      <Work/>
+      
+      
       <Services />
-      <Contact/>
+      <Work/>
+      {/* <Contact/> */}
       
-    
+    {/* <Footer/> */}
     </div>
   )
 }

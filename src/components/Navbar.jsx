@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between px-2 lg:px-0">
           <motion.span initial={{opacity:0,scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}}
             className={`${
-              open ? "text-[#D9643C]" : "text-[#D9643C]"
+              open ? "text-[#faad1b]" : "text-[#faad1b]"
             } ml-0 lg:ml-14 text-[28px]`}
           >
             DevFolio
@@ -50,7 +50,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
-        <ul className="text-black lg:text-[#D9643C] mr-0 lg:mr-14 lg:flex lg:py-0 lg:static lg:space-x-9 hidden">
+        <ul className="text-black lg:text-[#faad1b] mr-0 lg:mr-14 lg:flex lg:py-0 lg:static lg:space-x-9 hidden">
           {menuLinks.map((item) => (
             // <motion.li
             //   variants={variants}
