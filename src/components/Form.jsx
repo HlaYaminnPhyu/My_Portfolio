@@ -25,8 +25,8 @@ const Form = () => {
         });
   };
   return (
-    <div className='static md:absolute top-16 w-full '>
-          <div className=' flex justify-between container mx-auto pt-16'>
+    <div className='static md:absolute top-16 w-full'>
+          <div className=' flex justify-between container mx-auto'>
             <div className="bg-[#344c36] m-2 md:mx-[1%] lg:mx-[4.25rem] w-full flex flex-col md:flex-row justify-between">
             <form ref={form} onSubmit={sendEmail} className='pt-10 px-3 lg:p-10 w-full'>
               

@@ -4,7 +4,7 @@ import "animate.css";
 
 const Home = () => {
   return (
-    <section className=" h-app hero-bg relative" id="home">
+    <section className=" h-app bg-black relative" id="home">
       <div className=" absolute h-full w-full"></div>
       
 
@@ -17,12 +17,20 @@ const Home = () => {
             Award-winning product designer specialized in UX/UI,
           </p>
         </div>
+     
+
+
+
         <div className=" animate__animated animate__fadeInUp">
           {/* <iframe src="https://embed.lottiefiles.com/animation/85023" ></iframe> */}
-          <img
+          {/* <img
             src="https://unded-react.envalabdemos.com/static/media/vector.c5e85ba2f3b7759fa7a3.png"
             alt=""
-          />
+          /> */}
+          <div className="spinner">
+    <div className="bubble-1"></div>
+    <div className="bubble-2"></div>
+  </div>
         </div>
         <div className=" text-right">
           <h1 className=" text-[120px] mb-[30px] animate__animated animate__slideInRight">

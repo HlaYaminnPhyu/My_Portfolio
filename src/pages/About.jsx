@@ -12,15 +12,15 @@ const About = () => {
     <div id="about" className=" min-h-full bg-[#1f1f1f]">
       <div className="bg-[#232323] flex items-center my-20 py-10 justify-around">
         <div className="relative">
-          <div className="  outline-[#fdae16] outline outline-[5px] w-[350px] h-[427px]"></div>
+          <div className="  outline-[#fdae16] outline outline-[5px] w-[279px] h-[343px]"></div>
           <img
             src={myImg}
-            className=" bottom-5 right-5 absolute"
+            className=" bottom-5 right-5 absolute w-[279px] h-[343px]"
             alt=""
           />
         </div>
         <div className=" mt-12 md:mt-0 md:w-1/2">
-          <p className=" text-3xl font-semibold  relative mb-10">
+          <p className=" text-3xl font-semibold mb-10">
             Hla Yaminn Phyu - Aspiring Web Developer
           </p>
           <p className=" text-xl text-[#B8B5C6] tracking-wide font-light">
@@ -55,6 +55,8 @@ const About = () => {
               <button className=" px-6 py-2 rounded outline outline-[#fdae16]">
                 Download My CV
               </button>
+              
+          
             </div>
           </div>
         </div>

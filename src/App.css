@@ -1,5 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Space+Mono:wght@400;700&display=swap');
 
+
+/* skill */
+/* .con{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+/* .car{
+  position: relative;
+  width: 22opx;
+  height: 250px;
+  background: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+h1::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+h1 {
+  position: relative;
+  font-size: 5rem;
+}
+
+
+
+
+
+
+.car .percent{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  /* background: #f00; */
+  /* transform: rotate(270deg); */
+ 
+}
+.bootstrap{
+  --clr:#04fc43;
+ --num:90;
+}
+.tailwind{
+  --clr:#f00;
+ --num:80;
+}
+.react{
+  --clr:rgb(4, 0, 255);
+ --num:80;
+}
+.car .percent svg{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(270deg);
+
+}
+.car .percent svg circle{
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke-width: 2;
+  stroke: #191919;
+  transform: translate(5px,5px);
+}
+.car .percent svg circle:nth-child(2){
+  stroke: var(--clr);
+  stroke-dasharray: 440;
+  stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+  opacity: 0;
+  animation: fadeIn 1s linear forwards;
+  animation-delay: 2.5s;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }100%{
+    opacity: 1;
+  }
+}
+.dot{
+  position:absolute;
+  /* background: #f00; */
+  inset: 5px;
+ z-index: 10;
+ transform: rotate(calc(3.6deg * var(--num)));
+ animation: animateDot 2s linear forwards;
+}
+@keyframes animateDot{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(calc(3.6deg * var(--num)));
+  }
+}
+.dot::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: var(--clr);
+  box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr);
+}
+.number{
+  opacity: 0;
+  animation: fadeIn 1s linear forwards;
+  animation-delay: 2s;
+}
+/* skill */
+
+.gl{
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15.4px);
+  -webkit-backdrop-filter: blur(15.4px);
+  border: 1px solid rgba(255, 255, 255, 0.86);
+}
+
 body{
   box-sizing: border-box;
   margin: 0;
@@ -8,9 +151,6 @@ body{
   font-family: 'Italiana', sans-serif;
 font-family: 'Space Mono', monospace;
   
-
- 
-/* styles.css */
 }
 
 
@@ -80,7 +220,7 @@ font-family: 'Space Mono', monospace;
     box-shadow: 0 0 0 10px #DD8469;
     background-color: #faad1b;
     transition: all 300ms ease-in-out;
-  }
+  }gl
 
 
 
@@ -294,14 +434,14 @@ font-family: 'Space Mono', monospace;
     100% { width : 124px ; }
 }
 
-.container{
+/* .container{
     width : 100% ;
     height : 300px ;
     display : flex ;
     flex-direction : column ;
     justify-content : center ;
     align-items : center ;
-}
+} */
 .button:not(:last-child){
   margin-bottom : 64px ;
 }
