@@ -8,8 +8,8 @@ const Home = () => {
       <div className=" absolute h-full w-full"></div>
       
 
-      <div className="z-10 flex flex-row h-screen items-center justify-center container mx-auto gap-3">
-        <div className=" text-left">
+      <div className=" flex flex-col md:flex md:flex-row items-center justify-center h-full container mx-auto gap-3">
+        <div className=" text-left mt-10 p-10">
           <h1 className=" text-[120px] mb-[30px] animate__animated animate__fadeInLeft">
             Hello
           </h1>
@@ -21,18 +21,20 @@ const Home = () => {
 
 
 
-        <div className=" animate__animated animate__fadeInUp">
+        <div className=" animate__animated animate__fadeInUp mt-20">
           {/* <iframe src="https://embed.lottiefiles.com/animation/85023" ></iframe> */}
-          {/* <img
+          <img
             src="https://unded-react.envalabdemos.com/static/media/vector.c5e85ba2f3b7759fa7a3.png"
             alt=""
-          /> */}
+          />
+
+{/* <div class="loader"></div>
           <div className="spinner">
     <div className="bubble-1"></div>
     <div className="bubble-2"></div>
-  </div>
+  </div> */}
         </div>
-        <div className=" text-right">
+        <div className=" text-right mt-10 p-10">
           <h1 className=" text-[120px] mb-[30px] animate__animated animate__slideInRight">
             Hello
           </h1>

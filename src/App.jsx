@@ -17,6 +17,7 @@ import { Route, Routes } from 'react-router-dom'
 // https://preview.themeforest.net/item/unded-creative-agency-and-portfolio-react-template/full_screen_preview/49841815?_ga=2.126775822.2070452220.1706285728
 
 // https://blog.hubspot.com/website/css-animation-examples
+// https://css-loaders.com/
 
 const App = () => {
   return (

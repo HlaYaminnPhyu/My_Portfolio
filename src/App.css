@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Space+Mono:wght@400;700&display=swap');
-
+/* HTML: <div class="loader"></div> */
+.loader {
+  --s: 20px;
+  
+  --_d: calc(0.353*var(--s));
+  width: calc(var(--s) + var(--_d));
+  aspect-ratio: 1;
+  display: grid;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  grid-area: 1/1;
+  clip-path: polygon(var(--_d) 0,100% 0,100% calc(100% - var(--_d)),calc(100% - var(--_d)) 100%,0 100%,0 var(--_d));
+  background:
+    conic-gradient(from -90deg at calc(100% - var(--_d)) var(--_d),
+     #fff 135deg,#666 0 270deg,#aaa 0);
+  animation: l6 2s infinite;
+}
+.loader:after {
+  animation-delay:-1s;
+}
+@keyframes l6{
+  0%  {transform:translate(0,0)}
+  25% {transform:translate(30px,0)}
+  50% {transform:translate(30px,30px)}
+  75% {transform:translate(0,30px)}
+  100%{transform:translate(0,0)}
+}
 
 /* skill */
 /* .con{
@@ -18,38 +46,6 @@
   justify-content: center;
   align-items: center;
 } */
-
-h1::before {  
-  transform: scaleX(0);
-  transform-origin: bottom right;
-}
-
-h1:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-h1::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  inset: 0 0 0 0;
-  background: hsl(200 100% 80%);
-  z-index: -1;
-  transition: transform .3s ease;
-}
-
-h1 {
-  position: relative;
-  font-size: 5rem;
-}
-
-
-
-
-
-
 .car .percent{
   position: relative;
   width: 150px;
@@ -59,16 +55,36 @@ h1 {
  
 }
 .bootstrap{
-  --clr:#04fc43;
+  --clr:#7611f6;
  --num:90;
 }
 .tailwind{
-  --clr:#f00;
+  --clr:#04fc43;
+  /* --clr:#38bdf8; */
  --num:80;
 }
 .react{
-  --clr:rgb(4, 0, 255);
+  /* --clr:#04fc43; */
+  --clr:#38bdf8;
+
+  /* --clr:rgb(4, 0, 255); */
  --num:80;
+}
+.jas{
+  --clr:#faad1b;
+  --num:90;
+}
+.php{
+  /* --clr:#38bdf8; */
+  --clr:rgb(4, 0, 255);
+
+
+  /* --clr:#4f5b93; */
+  --num:80;
+}
+.lara{
+  --clr:#f9322c;
+  --num:85;
 }
 .car .percent svg{
   position: relative;
@@ -135,12 +151,12 @@ h1 {
 /* skill */
 
 .gl{
-  background: rgba(255, 255, 255, 0);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(15.4px);
-  -webkit-backdrop-filter: blur(15.4px);
-  border: 1px solid rgba(255, 255, 255, 0.86);
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.4px);
+-webkit-backdrop-filter: blur(15.4px);
+border: 1px solid rgba(255, 255, 255, 0.86);
 }
 
 body{
@@ -220,7 +236,7 @@ font-family: 'Space Mono', monospace;
     box-shadow: 0 0 0 10px #DD8469;
     background-color: #faad1b;
     transition: all 300ms ease-in-out;
-  }gl
+  }
 
 
 

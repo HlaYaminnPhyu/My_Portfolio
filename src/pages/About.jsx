@@ -10,16 +10,19 @@ import {
 const About = () => {
   return (
     <div id="about" className=" min-h-full bg-[#1f1f1f]">
-      <div className="bg-[#232323] flex items-center my-20 py-10 justify-around">
-        <div className="relative">
-          <div className="  outline-[#fdae16] outline outline-[5px] w-[279px] h-[343px]"></div>
+      <div className="bg-[#232323] flex-col md:flex lg:flex-row items-center my-20 py-10 md:justify-around">
+        <div className="relative flex-initial">
+          <div className="">
+          <div className=" mx-auto outline-[#fdae16] outline outline-[5px] w-[279px] h-[343px]"></div>
           <img
             src={myImg}
-            className=" bottom-5 right-5 absolute w-[279px] h-[343px]"
+            className=" bottom-5 right-[130px] md:bottom-5 md:right-5 absolute w-[279px] h-[343px]"
             alt=""
           />
+          </div>
         </div>
-        <div className=" mt-12 md:mt-0 md:w-1/2">
+        <div className=" flex-initial mt-12 md:mt-0 md:w-1/2">
+        <div className=" px-6">
           <p className=" text-3xl font-semibold mb-10">
             Hla Yaminn Phyu - Aspiring Web Developer
           </p>
@@ -59,6 +62,7 @@ const About = () => {
           
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

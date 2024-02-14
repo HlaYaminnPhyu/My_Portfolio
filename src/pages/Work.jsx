@@ -11,7 +11,7 @@ import Navbar from "../components/Navbar";
 const Work = () => {
   return (
     <div id="work" className="bg-[#000] h-app">
-      <Navbar/>
+      {/* <Navbar/> */}
       <section className=" flex flex-col justify-center items-center mb-4 sm:p-5 ">
         <h1 className=" text-3xl lg:text-5xl font-bold text-[#fdae16] uppercase mb-3">
           Portfolio
@@ -23,7 +23,7 @@ const Work = () => {
       </section>
       <section className=" container mx-auto px-4 md:px-8 lg:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-12">
         <div className="">
-          <div className=" card mt-20 bg-[#232323]">
+          <div className=" card md:mt-20 bg-[#232323]">
           <div className=" overflow-hidden">
             <img
               src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-1.jpg"
@@ -47,7 +47,7 @@ const Work = () => {
           </div>
         </div>
         </div>
-        <div className=" card mb-20 bg-[#232323]">
+        <div className=" card md:mb-20 bg-[#232323]">
           <div className=" overflow-hidden">
             <img
               src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-2.jpg"
@@ -70,7 +70,7 @@ const Work = () => {
             </span>
           </div>
         </div>
-        <div className=" card mt-20 bg-[#232323]">
+        <div className=" card md:mt-20 bg-[#232323]">
           <div className=" overflow-hidden">
             <img
               src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-3.jpg"
@@ -164,7 +164,7 @@ const Work = () => {
           </div>
         </div> */}
       </section>
-      <div className=" flex mt-[-40px] justify-center">
+      <div className=" flex mt-10 md:mt-[-40px] justify-center">
           {/* <Link className=" px-5 py-2 border-2 border-[#fdae16]">More Projects<Link/> */}
           <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>View All</Link>
          
@@ -189,7 +189,7 @@ const Work = () => {
         <SwiperSlide className=" ">
         <div className=" flex justify-center items-center">
           
-            <p className=" w-[350px] md:w-[600px] lg:w-[900px] text-xl text-center font-light leading-8">
+            <p className=" w-[500px] md:w-[600px] lg:w-[900px] text-xl text-center font-light leading-8">
                         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit.
                       </p>
@@ -197,7 +197,7 @@ const Work = () => {
         </SwiperSlide>
         <SwiperSlide className="">
           <div className=" flex justify-center items-center">
-            <p className=" w-[350px] md:w-[600px] lg:w-[900px] text-center text-xl font-light leading-8">
+            <p className=" w-[500px] md:w-[600px] lg:w-[900px] text-center text-xl font-light leading-8">
                         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit.
                       </p>
