@@ -12,7 +12,7 @@ const About = () => {
     <div id="about" className=" min-h-full bg-[#1f1f1f]">
       <div className="bg-[#232323] flex-col md:flex lg:flex-row items-center my-20 py-10 md:justify-around">
         <div className="flex-initial">
-        <div className="relative ">
+        <div className="relative flex justify-center items-center">
           <div className="">
           {/* <div className=" mx-auto outline-[#fdae16] outline outline-[5px] w-[279px] h-[343px]"></div> */}
           {/* <div className=" mx-auto border-[#fdae16] border-[5px] w-[279px] h-[343px]"></div> */}
@@ -27,7 +27,7 @@ const About = () => {
           /> */}
           <img
             src={myImg}
-            className=" mx-auto -translate-x-5 -translate-y-[380px] w-[295.2px] h-[358px] absolute"
+            className=" mx-auto -translate-x-5 -translate-y-[380px] md:-translate-x-5 md:-translate-y-[380px] w-[295.2px] h-[358px] absolute"
             // className=" mx-auto w-[257.6px] h-[273.4px] absolute"
 
             alt=""
@@ -56,16 +56,16 @@ const About = () => {
           </p>
           <div className=" flex mt-7 justify-between items-center">
             <div className="flex gap-3 cursor-pointer">
-              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
+              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] w-12 h-12 rounded-full transition-all duration-300">
                 <FaFacebook className="text-xl block" />
               </span>
-              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#cde1f8] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
+              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
                 <FaInstagram className="text-xl block " />
               </span>
-              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#cde1f8] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
+              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
                 <FaTwitter className="text-xl block" />
               </span>
-              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#cde1f8] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
+              <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
                 <FaLinkedinIn className="text-xl block" />
               </span>
             </div>

@@ -55,7 +55,7 @@ const Skill = () => {
             </div>
 
             <div className="car p-5">
-              <div className={`jas ${isVisible ? 'percent' : ''}`}
+              <div className={`js ${isVisible ? 'percent' : ''}`}
       ref={animationRef}>
               <div className={`${isVisible ? 'dot' : ''}`}
       ref={animationRef}></div>
@@ -64,13 +64,13 @@ const Skill = () => {
                   <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 <div className="number absolute inset-0 flex justify-center items-center flex-col">
-                  <h2>85%</h2>
-                  <p>Bootstrap</p>
+                  <h2>80%</h2>
+                  <p>Javascript</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(223,240,92,0.5)] border-l-[rgba(223,240,92,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
+          <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-solid border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-t border-l glassmorphic rounded-lg">
             <div className=" text-8xl text-[#38bdf8]">
               <SiTailwindcss />
             </div>
@@ -84,8 +84,8 @@ const Skill = () => {
                   <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 <div className="number absolute inset-0 flex justify-center items-center flex-col">
-                  <h2>85%</h2>
-                  <p>Bootstrap</p>
+                  <h2>90%</h2>
+                  <p>Tailwind</p>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ const Skill = () => {
                   <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 <div className="number absolute inset-0 flex justify-center items-center flex-col">
-                  <h2>85%</h2>
+                  <h2>80%</h2>
                   <p>Bootstrap</p>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const Skill = () => {
                 </svg>
                 <div className="number absolute inset-0 flex justify-center items-center flex-col">
                   <h2>85%</h2>
-                  <p>Bootstrap</p>
+                  <p>React</p>
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@ const Skill = () => {
                   <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 <div className="number absolute inset-0 flex justify-center items-center flex-col">
-                  <h2>85%</h2>
+                  <h2>80%</h2>
                   <p>Php</p>
                 </div>
               </div>

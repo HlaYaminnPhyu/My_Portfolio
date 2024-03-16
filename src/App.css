@@ -609,23 +609,23 @@ animation-delay: 9.5s;
 }
 .bootstrap{
   --clr:#7611f6;
- --num:90;
+ --num:80;
 }
 .tailwind{
   --clr:#04fc43;
   /* --clr:#38bdf8; */
- --num:80;
+ --num:90;
 }
 .react{
   /* --clr:#04fc43; */
   --clr:#38bdf8;
 
   /* --clr:rgb(4, 0, 255); */
- --num:80;
+ --num:85;
 }
-.jas{
+.js{
   --clr:#faad1b;
-  --num:90;
+  --num:80;
 }
 .php{
   /* --clr:#38bdf8; */
