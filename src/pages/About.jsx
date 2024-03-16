@@ -1,27 +1,42 @@
 import React from "react";
-import myImg from "../images/my1.jpg";
+import myImg from "../images/my2.jpg";
 import {
   FaInstagram,
   FaFacebook,
   FaTwitter,
   FaLinkedinIn,
 } from "react-icons/fa";
-
+// [#344c36] [#faad1b] #dbd2c1 #f6f1e3 #040707 #f1603c #fdae16 #f6efe1  #fdae16 #000000
 const About = () => {
   return (
     <div id="about" className=" min-h-full bg-[#1f1f1f]">
       <div className="bg-[#232323] flex-col md:flex lg:flex-row items-center my-20 py-10 md:justify-around">
-        <div className="relative flex-initial">
+        <div className="flex-initial">
+        <div className="relative ">
           <div className="">
-          <div className=" mx-auto outline-[#fdae16] outline outline-[5px] w-[279px] h-[343px]"></div>
+          {/* <div className=" mx-auto outline-[#fdae16] outline outline-[5px] w-[279px] h-[343px]"></div> */}
+          {/* <div className=" mx-auto border-[#fdae16] border-[5px] w-[279px] h-[343px]"></div> */}
+          <div className=" mx-auto border-[#fdae16] border-[5px] w-[295.2px] h-[358px]"></div>
+
+
+          {/* <img
+            src={myImg}
+            className=" bottom-5 right-5 absolute w-[279px] h-[343px]"
+            // className=" bottom-5 right-[130px] md:bottom-5 md:right-5 absolute w-[279px] h-[343px]"
+            alt=""
+          /> */}
           <img
             src={myImg}
-            className=" bottom-5 right-[130px] md:bottom-5 md:right-5 absolute w-[279px] h-[343px]"
+            className=" mx-auto -translate-x-5 -translate-y-[380px] w-[295.2px] h-[358px] absolute"
+            // className=" mx-auto w-[257.6px] h-[273.4px] absolute"
+
             alt=""
           />
           </div>
         </div>
-        <div className=" flex-initial mt-12 md:mt-0 md:w-1/2">
+        </div>
+        <div className="flex-initial mt-12 md:mt-0 md:w-1/2">
+        <div className=" ">
         <div className=" px-6">
           <p className=" text-3xl font-semibold mb-10">
             Hla Yaminn Phyu - Aspiring Web Developer
@@ -62,6 +77,7 @@ const About = () => {
           
             </div>
           </div>
+        </div>
         </div>
         </div>
       </div>

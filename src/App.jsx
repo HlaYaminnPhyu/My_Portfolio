@@ -18,6 +18,11 @@ import { Route, Routes } from 'react-router-dom'
 
 // https://blog.hubspot.com/website/css-animation-examples
 // https://css-loaders.com/
+// https://codepen.io/Launghe/pen/zQEmYp
+// https://codepen.io/deren2525/pen/gOwdBww
+// https://codepen.io/ninjasort/pen/ALLqLK
+// https://codepen.io/hrtzt/pen/JdYaEZ
+// https://www.sliderrevolution.com/templates/motion-blur-portfolio-showcase/?utm_medium=inline-ad&utm_source=css-animation-examples
 
 const App = () => {
   return (
@@ -27,17 +32,18 @@ const App = () => {
       <Home/>
       <About/>
       
-      <Routes>
+      {/* <Routes>
       <Route path="/projects" element={<Projects />}>View</Route>;
       </Routes>
-  
+   */}
 
       
       <Services />
-      <Work/>
+      {/* <Work/> */}
+      <Projects/>
       <Skill/>
       <Contact/>
-      {/* <Projects/> */}
+      
       
     <Footer/>
     </div>
