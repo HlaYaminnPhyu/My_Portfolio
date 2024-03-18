@@ -10,6 +10,8 @@ import Footer from './components/Footer'
 import Projects from './pages/Projects'
 import Skill from './pages/Skill'
 import { Route, Routes } from 'react-router-dom'
+import Chatbot from './pages/Chatbot'
+
 
 
 
@@ -26,10 +28,12 @@ import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className=" min-h-[100vh] text-white">
+    <div className=" min-h-[100vh] text-white overflow-hidden">
    
       <Navbar/>
+     <Chatbot/>
       <Home/>
+      
       <About/>
       
       {/* <Routes>

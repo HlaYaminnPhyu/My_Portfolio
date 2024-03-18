@@ -77,10 +77,7 @@ const Projects = () => {
      data-aos-duration="1000"
      data-aos-easing="ease-in-sine"
      data-aos-mirror="true" className="">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione ea in amet explicabo sit nostrum illum magni? Adipisci
-                  laborum molestias animi unde saepe? A pariatur quasi minima
-                  quis hic. Doloremque?
+                  "You can explore movies on my website, where you'll find detailed information, trailers, popular picks, trends, IMDb ratings, and categorization by genre. Dive into a vast collection of films to discover your next favorite. Start your cinematic journey now!"
                 </p>
                 {/* <button className="px-7 mt-10 relative select-none text-green bg-[#ffffff19] backdrop-blur-sm border-r-[rgba(255,255,255,0.5)] border-b-[rgba(255,255,255,0.5)] border-solid gla border-b border-r rounded-lg p-2 cursor-pointer">
                   See Detail
@@ -93,7 +90,7 @@ const Projects = () => {
      data-aos-mirror="true"
     //  data-aos-anchor-placement="top-top"
      className=" mt-10">
-                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>View All</Link>
+                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>See Detail</Link>
                 </div>
               </div>
 
@@ -125,7 +122,7 @@ const Projects = () => {
           </div>
         </div> */}
         <div className=" ">
-          <div className=" overflow-hidden h-[260px] rounded-t">
+          <div className=" overflow-hidden h-full rounded-t">
 
           <Swiper 
       // pagination={pagination}
@@ -198,7 +195,7 @@ const Projects = () => {
         </div>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row lg:flex-row h-auto gap-10 mb-10 items-start">
+            <div className="flex flex-col-reverse md:flex-row lg:flex-row h-auto gap-10 mb-10 items-start">
             <div className="flex-initial w-full md:w-6/12 lg:w-6/12 rounded-lg">
               {/* <div className="card ">
           <div className=" overflow-hidden h-[260px] rounded-t">
@@ -224,7 +221,7 @@ const Projects = () => {
           </div>
         </div> */}
         <div className=" ">
-          <div className=" overflow-hidden h-[260px] rounded-t">
+          <div className=" overflow-hidden h-full rounded-t">
 
           <Swiper 
       // pagination={pagination}
@@ -312,20 +309,17 @@ const Projects = () => {
      data-aos-easing="ease-in-sine"
      data-aos-mirror="true" className="">
       <p  className="">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione ea in amet explicabo sit nostrum illum magni? Adipisci
-                  laborum molestias animi unde saepe? A pariatur quasi minima
-                  quis hic. Doloremque?
+      "Discover the latest in fashion on my e-commerce website. Explore a diverse selection of clothing items, from trendy styles to timeless classics. Browse detailed descriptions, customer reviews, and find the perfect outfit for any occasion. Start shopping now!"
                 </p>
                 <div className=" mt-10">
-                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>View All</Link>
+                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>See Detail</Link>
                 </div>
      </div>
                 
               </div>
             </div>
             <div className="flex flex-col md:flex-row lg:flex-row h-auto gap-10 mb-10 items-start">
-              <div className="flex-initial w-6/12 ">
+              <div className="flex-initial w-full md:w-6/12 lg:w-6/12">
                 <h2
                 data-aos="fade-right"
                 data-aos-offset="200"
@@ -340,13 +334,10 @@ const Projects = () => {
      data-aos-easing="ease-in-sine"
      data-aos-mirror="true" className="">
       <p  className="">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione ea in amet explicabo sit nostrum illum magni? Adipisci
-                  laborum molestias animi unde saepe? A pariatur quasi minima
-                  quis hic. Doloremque?
+      "Introducing our Contact App, connect with api so go-easy for contact management. With intuitive frontend and backend integration, you can effortlessly login, register, and manage your contacts. Connect with friends, edit details, and streamline your communication needs like never before. Experience convenience at your fingertips!"
                 </p>
                 <div className=" mt-10">
-                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>View All</Link>
+                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>See Detail</Link>
                 </div>
      </div>
               </div>
@@ -375,7 +366,7 @@ const Projects = () => {
           </div>
         </div> */}
         <div className=" ">
-          <div className=" overflow-hidden h-[260px] rounded-t">
+          <div className=" overflow-hidden h-full rounded-t">
 
           <Swiper 
       // pagination={pagination}
@@ -448,7 +439,7 @@ const Projects = () => {
         </div>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row lg:flex-row h-auto gap-10 mb-10 items-start">
+            <div className="flex flex-col-reverse md:flex-row lg:flex-row h-auto gap-10 mb-10 items-start">
             <div className="flex-initial w-full md:w-6/12 lg:w-6/12 rounded-lg">
               {/* <div className="card ">
           <div className=" overflow-hidden h-[260px] rounded-t">
@@ -474,7 +465,7 @@ const Projects = () => {
           </div>
         </div> */}
         <div className=" ">
-          <div className=" overflow-hidden h-[260px] rounded-t">
+          <div className=" overflow-hidden h-full rounded-t">
 
           <Swiper 
       // pagination={pagination}
@@ -532,7 +523,7 @@ const Projects = () => {
           </div>
           <div className=" px-4 py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
             <div className="">
-              <h1 className=" text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
+              <h1 className="mt-0 text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
                 Admin Dashboard
               </h1>
               <div className=" text-[0.8rem] text-[#fdae16] font-normal">
@@ -562,13 +553,10 @@ const Projects = () => {
      data-aos-easing="ease-in-sine"
      data-aos-mirror="true" className="">
       <p  className="">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione ea in amet explicabo sit nostrum illum magni? Adipisci
-                  laborum molestias animi unde saepe? A pariatur quasi minima
-                  quis hic. Doloremque?
+      "Experience my Admin Dashboard frontend, combining intuitive navigation with dynamic charting capabilities. Monitor data trends, track performance metrics, and streamline management tasks with ease and efficiency. Elevate your administrative experience today.
                 </p>
                 <div className=" mt-10">
-                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>View All</Link>
+                <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>See Detail</Link>
                 </div>
      </div>
               </div>

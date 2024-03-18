@@ -735,7 +735,16 @@ font-family: 'Space Mono', monospace;
 }
 
 .hero-bg{
-  background-image: url('https://unded-react.envalabdemos.com/static/media/bg.c7e5ac36b55a13b78a9c.jpg');
+  /* background-image: url('https://unded-react.envalabdemos.com/static/media/bg.c7e5ac36b55a13b78a9c.jpg'); */
+  background-image: url('./images/conifers-1867371.jpg');
+
+  /* background-image: url('./images/mountains-7872003.jpg'); */
+  /* background-image: url('./images/nettle-437963.jpg'); */
+  /* background-image: url('./images/flower-5217356.jpg'); */
+
+
+
+
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -743,7 +752,7 @@ font-family: 'Space Mono', monospace;
 }
 
 .hero-overlay{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hero-h-2{

@@ -73,7 +73,7 @@ const Services = () => {
         
 
         {/* Web developmet */}
-        <div data-aos="fade-up" className=" -mt-10 ">
+        <div data-aos="zoom-out-up" className=" -mt-10 ">
         <motion.div
           initial="hidden"
           animate="visible"

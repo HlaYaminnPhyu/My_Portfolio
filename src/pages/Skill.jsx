@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { FaReact, FaBootstrap, FaPhp, FaLaravel } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
+
 import { RiJavascriptLine } from "react-icons/ri";
 // [#344c36] [#faad1b] [#1f1f1f]
 const Skill = () => {
@@ -17,7 +18,7 @@ const Skill = () => {
       {
         root: null,
         rootMargin: '0px',
-        threshold: 0.5, // Adjust as needed
+        threshold: 0.2, // Adjust as needed
       }
     );
 
@@ -47,14 +48,13 @@ const Skill = () => {
         </p>
         {/* <div className=" w-[40px] h-[5px] bg-[#faad1b]"></div> */}
       </section>
-        <div className=" flex flex-col md:flex md:flex-row gap-4">
-        <div className=" items-center w-full h-44 flex justify-around bg-[#ffffff19] backdrop-blur-sm border-r-[rgba(255,255,255,0.5)] border-b-[rgba(255,255,255,0.5)] border-solid gla border-b border-r rounded-lg cursor-pointer">
-            <div className=" text-8xl text-[#faad1b]">
-              <IoLogoJavascript />
-              {/* <RiJavascriptLine /> */}
-            </div>
 
-            <div className="car p-5">
+     
+        <div className=" flex flex-col md:flex md:flex-row gap-4">
+        <div className=" items-center w-full h-44 flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-r-[rgba(255,255,255,0.5)] border-b-[rgba(255,255,255,0.5)] border-solid gla border-b border-r rounded-lg cursor-pointer">
+            
+
+            <div className={`p-5 ${isVisible ? 'car' :''}`}>
               <div className={`js ${isVisible ? 'percent' : ''}`}
       ref={animationRef}>
               <div className={`${isVisible ? 'dot' : ''}`}
@@ -69,11 +69,13 @@ const Skill = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-solid border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-t border-l glassmorphic rounded-lg">
-            <div className=" text-8xl text-[#38bdf8]">
-              <SiTailwindcss />
+            <div className=" text-8xl text-[#faad1b]">
+              <IoLogoJavascript />
+              
             </div>
+          </div>
+          <div className=" items-center w-full h-44 border-2 border-white flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-solid border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-t border-l glassmorphic rounded-lg">
+            
             <div className="car p-5">
             <div className={`tailwind ${isVisible ? 'percent' : ''}`}
       ref={animationRef}>
@@ -89,11 +91,12 @@ const Skill = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
-            <div className=" text-8xl text-[#7611f6]">
-              <FaBootstrap />
+            <div className=" text-8xl text-[#38bdf8]">
+              <SiTailwindcss />
             </div>
+          </div>
+          <div className=" items-center w-full h-44 border-2 border-white flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
+            
             <div className="car p-5">
             <div className={`bootstrap ${isVisible ? 'percent' : ''}`}
       ref={animationRef}>
@@ -109,13 +112,17 @@ const Skill = () => {
                 </div>
               </div>
             </div>
+            <div className=" text-8xl text-[#7611f6]">
+              <FaBootstrap />
+            </div>
           </div>
           
           
         </div>
         {/* <div className=" bg-[#344c36] my-2 h-2 w-full"></div> */}
         <div className=" flex flex-col md:flex md:flex-row gap-4">
-          <div className=" bg-[#344c36] items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
+
+          <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
           <div className="car p-5">
           <div className={`react ${isVisible ? 'percent' : ''}`}
       ref={animationRef}>
@@ -135,7 +142,7 @@ const Skill = () => {
               <FaReact />
             </div>
           </div>
-          <div className=" bg-[#344c36] items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
+          <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
           <div className="car p-5">
         
 
