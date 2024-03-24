@@ -50,8 +50,9 @@ const Skill = () => {
       </section>
 
      
-        <div className=" flex flex-col md:flex md:flex-row gap-4">
-        <div className=" items-center w-full h-44 flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-r-[rgba(255,255,255,0.5)] border-b-[rgba(255,255,255,0.5)] border-solid gla border-b border-r rounded-lg cursor-pointer">
+        <div className="flex flex-col md:flex-row gap-4"
+     >
+        <div className=" items-center w-full h-44 border-2 border-white flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-solid border-t-[rgba(255,255,255,0.5)] border-l-[rgba(39,71,32,0.5)] border-t border-l glassmorphic rounded-lg">
             
 
             <div className={`p-5 ${isVisible ? 'car' :''}`}>
@@ -119,7 +120,7 @@ const Skill = () => {
           
           
         </div>
-        {/* <div className=" bg-[#344c36] my-2 h-2 w-full"></div> */}
+ 
         <div className=" flex flex-col md:flex md:flex-row gap-4">
 
           <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
@@ -191,51 +192,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      {/* <div className="con">
-    <div className="car p-5">
-      <div className="percent tailwind">
-        <div className="dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70"></circle>
-
-        </svg>
-        <div className="number absolute inset-0 flex justify-center items-center flex-col">
-          <h2>85%</h2>
-          <p>Bootstrap</p>
-        </div>
-      </div>
-    </div>
-    <div className="car p-5">
-      <div className="percent bootstrap">
-        <div className="dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70"></circle>
-
-        </svg>
-        <div className="number absolute inset-0 flex justify-center items-center flex-col">
-          <h2>85%</h2>
-          <p>Bootstrap</p>
-        </div>
-      </div>
-    </div>
-    <div className="car p-5">
-      <div className="percent react">
-        <div className="dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70"></circle>
-
-        </svg>
-        <div className="number absolute inset-0 flex justify-center items-center flex-col">
-          <h2>85%</h2>
-          <p>Bootstrap</p>
-        </div>
-      </div>
-    </div>
-   
-  </div> */}
+     
     </div>
   );
 };

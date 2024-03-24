@@ -3,9 +3,12 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-        <div className="bg-portfolio-fill w-full py-5 flex justify-center text-white">
-            <h1>© Copyright <b>DevFolio.</b>All Rights Reserved<br/>
-                Designed by BootstrapMade</h1>
+        <div className=" w-full py-5 flex flex-col justify-center items-center text-white">
+        <b className=''>DevFolio.</b>
+            <h1>
+            Thank you for your interesting. You can send me freely.
+            </h1>
+            
         </div>
     </>
   )

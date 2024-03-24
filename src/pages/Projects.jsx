@@ -334,7 +334,7 @@ const Projects = () => {
      data-aos-easing="ease-in-sine"
      data-aos-mirror="true" className="">
       <p  className="">
-      "Introducing our Contact App, connect with api so go-easy for contact management. With intuitive frontend and backend integration, you can effortlessly login, register, and manage your contacts. Connect with friends, edit details, and streamline your communication needs like never before. Experience convenience at your fingertips!"
+      "Introducing Contact App, connect with api so go-easy for contact management. With intuitive frontend and backend integration, you can effortlessly login, register, and manage your contacts. Connect with friends, edit details, and streamline your communication needs like never before."
                 </p>
                 <div className=" mt-10">
                 <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>See Detail</Link>
@@ -540,12 +540,13 @@ const Projects = () => {
               <div
      className=" flex-initial w-full md:w-6/12 lg:w-6/12">
                 
-                <h2 data-aos="fade-left"
+                <h2
+                data-aos="fade-left"
                 data-aos-offset="200"
      data-aos-delay="50"
      data-aos-duration="1000"
      data-aos-easing="ease-in-sine"
-     data-aos-mirror="true" className=" text-3xl py-8">Admin Dashboard</h2>
+     data-aos-mirror="true" className=" text-3xl py-8">Create Contact App</h2>
                 <div data-aos="fade-left"
                 data-aos-offset="200"
      data-aos-delay="100"

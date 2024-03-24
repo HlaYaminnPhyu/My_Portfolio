@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import myImg from "../images/my2.jpg";
 import "aos/dist/aos.css";
 import {
@@ -8,8 +8,11 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 // [#344c36] [#faad1b] #dbd2c1 #f6f1e3 #040707 #f1603c #fdae16 #f6efe1  #fdae16 #000000
 const About = () => {
+
+
   return (
     <div id="about" className=" min-h-full bg-[#1f1f1f]">
       <div className="bg-[#232323] flex-col md:flex lg:flex-row items-center my-20 py-10 md:justify-around">
@@ -62,6 +65,7 @@ const About = () => {
               <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] w-12 h-12 rounded-full transition-all duration-300">
                 {/* <FaFacebook className="text-xl block" /> */}
                 <FaGithub className="text-xl block" />
+                {/* https://github.com/HlaYaminnPhyu */}
               </span>
               <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
                 {/* <FaInstagram className="text-xl block " /> */}
@@ -79,10 +83,17 @@ const About = () => {
               </span>
             </div>
             <div className="">
-              <button className=" px-6 py-2 rounded outline outline-[#fdae16]">
+              <button className=" px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16] hover:outline-white">
                 Download My CV
               </button>
-              
+              {/* <button className=" px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16]">
+                Download My CV
+              </button> */}
+              {/* <button className=" px-6 py-2 rounded outline outline-[#fdae16] relative overflow-hidden text-[#fdae16] hover:text-white hover:bg-[#fdae16] transition-colors duration-300">
+  Hover Me
+  <span className="absolute origin-left transform scale-x-0 transition-transform duration-300"></span>
+</button> */}
+
           
             </div>
           </div>

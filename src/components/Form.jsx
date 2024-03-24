@@ -50,7 +50,7 @@ const Form = () => {
               </div>
               <div className="mb-4 flex items-center">
                 {/* <p className='flex-initial w-full text-[#6a994e]'>You can reach me</p> */}
-                <p className='flex-initial w-full text-[#6a994e]'>Want To Know More? Drop me a line</p>
+                <p className='flex-initial font-medium w-full text-[#6a994e]'>Want To Know More? Drop me a line</p>
 
                 {/* <input type="text" name="user_subject" className=" flex-initial border-b-2 border-[#55a630] text-[#9AB18F] text-sm block w-full p-2.5 " placeholder="Subject" required /> */}
               </div>
@@ -71,7 +71,7 @@ const Form = () => {
         </div>
               
               {/* <p className='text-xl font-[300] mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p> */}
-              <div className=" w-[75%] mt-10">
+              <div className=" w-full md:w-[75%]  h-full mt-10">
                 {/* <div className="flex items-center gap-3 font-[300] text-base gla p-3">
                 <RiGpsFill/>
                   <p className=''>No.34/Hledan Yangon,Myanmar</p>
@@ -84,15 +84,15 @@ const Form = () => {
                 <AiOutlineMobile/>
                 <p>+959941365598</p>
                 </div>
-                <div className="mt-4 flex items-center gap-3 text-base font-[300] bg-[#35621f] p-3">
+                <div className="mt-4 mb-40 flex items-center gap-3 text-base font-[300] bg-[#35621f] p-3">
                 <AiOutlineMail/>
                 <p>hlayaminnphyu@gmail.com</p>
                 </div>
               </div>
-<div className=" mt-32 flex items-center gap-3 font-[300] text-base gla p-3">
-                <RiGpsFill/>
-                  <p className=''>No.34/Hledan Yangon,Myanmar</p>
-                </div>
+{/* <div className=" mt-32 flex items-center gap-3 font-[300] text-base gla p-3">
+               
+                  <p className=''>Thank you for your interesting. You can send me freely.</p>
+                </div> */}
               {/* <div className="flex gap-3 cursor-pointer">
                 <span className='border-[3px] border-portfolio-hue hover:bg-portfolio-fill hover:border-[#cde1f8] hover:text-white w-12 h-12 rounded-full transition-all duration-300'>
                   <FaFacebook className='text-xl  block mx-auto mt-[7px]'/>

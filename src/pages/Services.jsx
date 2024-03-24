@@ -73,7 +73,7 @@ const Services = () => {
         
 
         {/* Web developmet */}
-        <div data-aos="zoom-out-up" className=" -mt-10 ">
+        <div data-aos="zoom-out-up" className=" mt-0 md:-mt-10 lg:-mt-10">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -135,7 +135,7 @@ const Services = () => {
      
 
       </div>
-      <div className="flex mt-10 md:mt-[-40px] lg:mt-[-70px] justify-center">
+      <div data-aos="flip-left" className="flex mt-10 md:mt-[-40px] lg:mt-[-70px] justify-center">
         <div className=" flex">
         {/* <img className=' scale-x-[-1]' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAAuCAYAAABkgjQ+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG9SURBVHgB7ZjtbcIwEIYvUv+XTlB3gjIC3aAblA1gA+gE0Algk7BBRwhM0GxwvZPPqksdMB9SQ/I+0smOY13sN3eOHSIAAAAAAAAAAAC0B2YeiJXs0XIqNiTwgwgy5jSV3XPUd1QEE+QQK7ERnYOGKnUAE6rk42if8Sm+yd5AZUrffB7LHOacR5mdhgmnVQjNW40yG3vFeayyxGIfqusGx5/maHpLwnF++oXAGKf8FA3OtfOb2IiaqcW2Ubmz9tBWR9f+YUWxpX9A5jOXYpbZfS32Ho+1OOLcSaFr1KvYs9WvRVLIvfZdRv9f100vQuaic1iIucQ4lMGev5fg66BIiQepo6GZIy9caGsjsbABl+i3ob9ZU4tID1o5SaRDmICOvGjBnN3W+n3UHg/WUTvZikhPWrmaSJcSfV1c1BzqsbiPibaU+Jewpmhdao1I18YiOyWcLg0Tak47FWdDfYT9AXgm9pX4/Jd87nGlK7A/4FYNe6MR9Rnb+JYJcTSaptRnLLUWnGbJHTnQn40IMOHmdcdR3+H0j7fq0nXnjrpFnEa60/4QW8onvSbgsbVI/2SskFoAAAAAAAAA0C++ATJYg55nzWj6AAAAAElFTkSuQmCC" alt="" />
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAAuCAYAAABkgjQ+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG9SURBVHgB7ZjtbcIwEIYvUv+XTlB3gjIC3aAblA1gA+gE0Algk7BBRwhM0GxwvZPPqksdMB9SQ/I+0smOY13sN3eOHSIAAAAAAAAAAAC0B2YeiJXs0XIqNiTwgwgy5jSV3XPUd1QEE+QQK7ERnYOGKnUAE6rk42if8Sm+yd5AZUrffB7LHOacR5mdhgmnVQjNW40yG3vFeayyxGIfqusGx5/maHpLwnF++oXAGKf8FA3OtfOb2IiaqcW2Ubmz9tBWR9f+YUWxpX9A5jOXYpbZfS32Ho+1OOLcSaFr1KvYs9WvRVLIvfZdRv9f100vQuaic1iIucQ4lMGev5fg66BIiQepo6GZIy9caGsjsbABl+i3ob9ZU4tID1o5SaRDmICOvGjBnN3W+n3UHg/WUTvZikhPWrmaSJcSfV1c1BzqsbiPibaU+Jewpmhdao1I18YiOyWcLg0Tak47FWdDfYT9AXgm9pX4/Jd87nGlK7A/4FYNe6MR9Rnb+JYJcTSaptRnLLUWnGbJHTnQn40IMOHmdcdR3+H0j7fq0nXnjrpFnEa60/4QW8onvSbgsbVI/2SskFoAAAAAAAAA0C++ATJYg55nzWj6AAAAAElFTkSuQmCC" alt="" /> */}
