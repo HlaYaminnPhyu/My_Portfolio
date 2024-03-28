@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import myImg from "../images/my2.jpg";
+import cv from "../images/cv.pdf";
+
 import "aos/dist/aos.css";
 import {
   FaInstagram,
@@ -61,12 +63,10 @@ const About = () => {
           <div className=" flex mt-7 justify-between items-center">
             <div className="flex gap-3 cursor-pointer">
               <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] w-12 h-12 rounded-full transition-all duration-300">
-                <FaGithub className="text-xl block" />
-                {/* https://github.com/HlaYaminnPhyu */}
+              <Link to={`https://github.com/HlaYaminnPhyu`}><FaGithub className="text-xl block" /></Link>
               </span>
               <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
-                {/* <FaInstagram className="text-xl block " /> */}
-                <FaLinkedinIn className="text-xl block" />
+                <Link to={`https://www.linkedin.com/in/hla-yaminn-phyu-512362255`}><FaLinkedinIn className="text-xl block" /></Link>
               </span>
               
               <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] hover:text-white w-12 h-12 rounded-full transition-all duration-300">
@@ -79,7 +79,7 @@ const About = () => {
               </span>
             </div>
             <div className="">
-              <Link to={myImg} className=" px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16] hover:outline-white" download>
+              <Link to={cv} className=" px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16] hover:outline-white" download>
                 <span className="hidden md:inline">Download</span> My CV
               </Link>
               {/* <button className=" px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16]">
