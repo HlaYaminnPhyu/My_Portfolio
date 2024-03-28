@@ -42,7 +42,7 @@ const Form = () => {
             className="bg-white pt-10 px-3 lg:p-10 w-full"
           >
             <div className=" mb-6">
-              <h1 className=" text-[2rem] font-semibold text-[#007200]">
+              <h1 className=" text-[2rem] font-semibold text-[#35621f]">
                 Send Message Me
               </h1>
               <div className=" w-[96px] h-[3px] bg-[#6a994e]"></div>

@@ -15,7 +15,7 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
 
-      <div className="relative z-10 flex flex-col gap-28 items-center justify-center md:flex-row md:items-center md:justify-between h-full">
+      <div className="relative z-10 flex flex-col gap-20 md:gap-28 items-center justify-center md:flex-row md:items-center md:justify-between h-full">
         <div className=" flex flex-col w-full md:w-1/2 px-6 text-white ">
           <h1 className=" text-7xl animate__animated animate__fadeInLeft font-bold">
             Hello
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" divide-x divide-solid divide-gray-600 flex justify-center mx-auto gl h-28 -mt-28 md:-mt-14 relative z-10 w-full md:h-14">
+      <div className=" divide-x divide-solid divide-gray-600 flex justify-center mx-auto gl -mt-14 relative z-10 w-full h-14">
         <div className=" w-1/2 md:w-1/4 lg:w-1/4 hidden hover:bg-[#3d5a22] md:flex text-[#fdae16] justify-center items-center">
           Electronic Engineering
         </div>

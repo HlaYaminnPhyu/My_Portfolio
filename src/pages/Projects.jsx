@@ -93,43 +93,16 @@ const Projects = () => {
                 </div>
 
                 <div className="flex-initial w-full lg:w-6/12 rounded-lg">
-                  {/* <div className="card ">
-          <div className=" overflow-hidden h-[260px] rounded-t">
-            <img
-              src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-1.jpg"
-              className=""
-              alt=""
-            />
-          </div>
-          <div className=" px-4 py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
-            <div className="">
-              <h1 className=" text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
-                Lorem impsum dolor
-              </h1>
-              <div className=" text-[0.8rem] text-[#fdae16] font-normal">
-                <span className=" ">Web Design</span> /{" "}
-                <span className="">18 Sep. 2018</span>
-              </div>
-            </div>
-            <span className=" text-[2.5rem]">
-              <BsPlusCircle />
-            </span>
-          </div>
-        </div> */}
+
                   <div className=" ">
                     <div className=" overflow-hidden h-full lg:h-[260px] rounded-t">
                       <Swiper
-                        // pagination={pagination}
-                        // spaceBetween={30}
-                        // centeredSlides={true}
+
                         autoplay={{
                           delay: 3000,
                           disableOnInteraction: false,
                         }}
-                        // pagination={{
-                        //   clickable: true,
-                        // }}
-                        // navigation={true}
+
                         modules={[Autoplay]}
                         className="mySwiper text-white"
                       >
@@ -147,9 +120,9 @@ const Projects = () => {
                         </SwiperSlide>
                       </Swiper>
                     </div>
-                    <div className=" px-4 py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
+                    <div className=" px-4 py-4 md:py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
                       <div className="">
-                        <h1 className=" text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
+                        <h1 className=" text-base md:text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
                           Movie Website
                         </h1>
                         <div className=" text-[0.8rem] text-[#fdae16] font-normal">
@@ -190,9 +163,9 @@ const Projects = () => {
                         </SwiperSlide>
                       </Swiper>
                     </div>
-                    <div className=" px-4 py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
+                    <div className=" px-4 py-4 md:py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
                       <div className="">
-                        <h1 className=" text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
+                        <h1 className=" text-base md:text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
                           Premium Shopper
                         </h1>
                         <div className=" text-[0.8rem] text-[#fdae16] font-normal">
@@ -312,9 +285,9 @@ const Projects = () => {
                         </SwiperSlide>
                       </Swiper>
                     </div>
-                    <div className=" px-4 py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
+                    <div className=" px-4 py-4 md:py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
                       <div className="">
-                        <h1 className=" text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
+                        <h1 className=" text-base md:text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
                           Create Contact App
                         </h1>
                         <div className=" text-[0.8rem] text-[#fdae16] font-normal">
@@ -355,9 +328,9 @@ const Projects = () => {
                         </SwiperSlide>
                       </Swiper>
                     </div>
-                    <div className=" px-4 py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
+                    <div className=" px-4 py-4 md:py-6 flex justify-between items-center rounded-b bg-[#ffffff19] backdrop-blur-sm border-b-[rgba(255,255,255,0.5)] border-r-[rgba(255,255,255,0.5)] border-solid border-b border-r glassmorphic">
                       <div className="">
-                        <h1 className="mt-0 text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
+                        <h1 className="mt-0 text-base md:text-[1.2rem] text-[#f6f1e3] font-[500] mb-3 leading-5">
                           Admin Dashboard
                         </h1>
                         <div className=" text-[0.8rem] text-[#fdae16] font-normal">

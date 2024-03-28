@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { FaReact, FaBootstrap, FaPhp, FaLaravel } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
-
 import { RiJavascriptLine } from "react-icons/ri";
 const Skill = () => {
+
 
   const [isVisible, setIsVisible] = useState(false);
   const animationRef = useRef(null);
@@ -47,10 +49,11 @@ const Skill = () => {
         </p>
       </section>
 
+      
      
-        <div className="hidden lg:flex lg:flex-row gap-4"
-     >
-        <div className=" items-center w-full h-44 border-2 border-white flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-solid border-t-[rgba(255,255,255,0.5)] border-l-[rgba(39,71,32,0.5)] border-t border-l glassmorphic rounded-lg">
+        <div className="hidden lg:flex lg:flex-row gap-4">
+       
+         <div className=" items-center w-full h-44 border-2 border-white flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-solid border-t-[rgba(255,255,255,0.5)] border-l-[rgba(39,71,32,0.5)] border-t border-l glassmorphic rounded-lg">
             
 
             <div className={`${isVisible ? 'car p-5' :''}`} ref={animationRef}>
@@ -117,7 +120,7 @@ const Skill = () => {
             <div className=" text-8xl text-[#7611f6]">
               <FaBootstrap />
             </div>
-          </div>
+          </div> 
           
           
         </div>

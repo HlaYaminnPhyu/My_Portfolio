@@ -56,12 +56,12 @@ const About = () => {
             weaving together HTML, CSS, and JavaScript and user-friendly
             interfaces.
           </p>
-          <p className=" text-xl text-gray-400 tracking-wide font-light">
+          <p className=" text-xl text-[#B8B5C6] tracking-wide font-light">
             Join me on my journey as I evolve and contribute to the dynamic
             realm of web development.
           </p>
-          <div className=" flex mt-7 justify-between items-center">
-            <div className="flex gap-3 cursor-pointer">
+          <div className=" flex mt-7 justify-center md:justify-between items-center">
+            <div className="flex gap-8 md:gap-3 cursor-pointer">
               <span className="flex justify-center items-center border-[3px] border-[#fdae16] hover:bg-[#fdae16] hover:border-[#f5d69b] w-12 h-12 rounded-full transition-all duration-300">
               <Link to={`https://github.com/HlaYaminnPhyu`}><FaGithub className="text-xl block" /></Link>
               </span>
@@ -79,16 +79,10 @@ const About = () => {
               </span>
             </div>
             <div className="">
-              <Link to={cv} className=" px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16] hover:outline-white" download>
-                <span className="hidden md:inline">Download</span> My CV
-              </Link>
-              {/* <button className=" px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16]">
+              <Link to={cv} className="hidden md:inline px-6 py-2 rounded outline outline-[#fdae16] hover:bg-[#fdae16] hover:outline-white" download>
                 Download My CV
-              </button> */}
-              {/* <button className=" px-6 py-2 rounded outline outline-[#fdae16] relative overflow-hidden text-[#fdae16] hover:text-white hover:bg-[#fdae16] transition-colors duration-300">
-  Hover Me
-  <span className="absolute origin-left transform scale-x-0 transition-transform duration-300"></span>
-</button> */}
+              </Link>
+
 
           
             </div>
