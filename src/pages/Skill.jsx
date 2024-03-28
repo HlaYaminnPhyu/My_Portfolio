@@ -4,7 +4,6 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 
 import { RiJavascriptLine } from "react-icons/ri";
-// [#344c36] [#faad1b] [#1f1f1f]
 const Skill = () => {
 
   const [isVisible, setIsVisible] = useState(false);
@@ -18,7 +17,7 @@ const Skill = () => {
       {
         root: null,
         rootMargin: '0px',
-        threshold: 0.2, // Adjust as needed
+        threshold: 0.2,
       }
     );
 
@@ -44,27 +43,29 @@ const Skill = () => {
           SkillS
         </h1>
         <p className=" text-[#dbd2c1] text-center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Proficient in web development technologies and frameworks.
         </p>
-        {/* <div className=" w-[40px] h-[5px] bg-[#faad1b]"></div> */}
       </section>
 
      
-        <div className="flex flex-col md:flex-row gap-4"
+        <div className="hidden lg:flex lg:flex-row gap-4"
      >
         <div className=" items-center w-full h-44 border-2 border-white flex flex-row-reverse justify-around bg-[#ffffff19] backdrop-blur-sm border-solid border-t-[rgba(255,255,255,0.5)] border-l-[rgba(39,71,32,0.5)] border-t border-l glassmorphic rounded-lg">
             
 
-            <div className={`p-5 ${isVisible ? 'car' :''}`}>
-              <div className={`js ${isVisible ? 'percent' : ''}`}
+            <div className={`${isVisible ? 'car p-5' :''}`} ref={animationRef}>
+              <div className={`${isVisible ? 'percent js' : ''}`}
       ref={animationRef}>
               <div className={`${isVisible ? 'dot' : ''}`}
       ref={animationRef}></div>
+      
                 <svg>
                   <circle cx="70" cy="70" r="70"></circle>
                   <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 <div className="number absolute inset-0 flex justify-center items-center flex-col">
+                
+                  
                   <h2>80%</h2>
                   <p>Javascript</p>
                 </div>
@@ -121,7 +122,7 @@ const Skill = () => {
           
         </div>
  
-        <div className=" flex flex-col md:flex md:flex-row gap-4">
+        <div className=" flex flex-col lg:flex-row gap-4">
 
           <div className=" items-center w-full h-44 border-2 border-white flex justify-around bg-[#ffffff19] backdrop-blur-sm border-t-[rgba(255,255,255,0.5)] border-l-[rgba(255,255,255,0.5)] border-solid border-t border-l glassmorphic rounded-lg">
           <div className="car p-5">
@@ -148,11 +149,11 @@ const Skill = () => {
         
 
           
-              {/* <div className="percent php"> */}
+          
               <div className={`php ${isVisible ? 'percent' : ''}`}
       ref={animationRef}>
 
-                {/* <div className="dot"></div> */}
+               
                 <div className={`${isVisible ? 'dot' : ''}`}
       ref={animationRef}></div>
 

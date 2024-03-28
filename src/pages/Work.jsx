@@ -8,7 +8,6 @@ import "swiper/css/navigation";
 import { BsPlusCircle } from "react-icons/bs";
 import { Link } from "react-scroll";
 import Navbar from "../components/Navbar";
-// [#344c36] [#faad1b] #dbd2c1 #f6f1e3 #040707 #f1603c #fdae16 #f6efe1  #fdae16 #000000
 const Work = () => {
 
   const pagination = {
@@ -19,7 +18,6 @@ const Work = () => {
   };
   return (
     <div id="work" className="bg-[#000] h-app">
-      {/* <Navbar/> */}
       <section className=" flex flex-col justify-center items-center mb-4 sm:p-5 ">
         <h1 className=" text-3xl lg:text-5xl font-bold text-[#fdae16] uppercase mb-3">
           Portfolio
@@ -104,27 +102,20 @@ const Work = () => {
         
       </section>
       <div className=" flex mt-10 md:mt-[-40px] justify-center">
-          {/* <Link className=" px-5 py-2 border-2 border-[#fdae16]">More Projects<Link/> */}
           <Link className=" px-10 py-2 border-2 border-[#fdae16]" to={"projects"}>View All</Link>
          
         </div>
       <section className=" mb-20 md:h-[800px] lg:h-full mt-12 relative flex justify-center items-center">
       
-        {/* <div className=" absolute top-0 left-0 bg-portfolio-fill p-0 h-[100%] w-[100%] opacity-[0.7]"></div> */}
-        
       <Swiper 
       pagination={pagination}
       
-      // spaceBetween={30}
         centeredSlides={true}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
         }}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        // navigation={true}
+
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper text-white">
         <SwiperSlide className=" ">

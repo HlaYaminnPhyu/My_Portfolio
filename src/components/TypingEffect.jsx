@@ -15,25 +15,14 @@ const TypingEffect = () => {
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
   }, []);
-    // const el = useRef();
-    // useEffect(()=>{
-    //     const type = new Typed(el.current,{
-    //         strings : ['Front-end developer','Freelancer','Designer'],
-    //         typeSpeed: 100,
-    //         backSpeed: 100,
-    //         loop : true,
-    //         backDelay: 2000,
-    //     })
-    // },[])
+
 
   return (
     <div className="animate__slow animate__animated animate__slideInRight">
       <span ref={el} />
-        {/* <span ref={el} className=' text-2xl'></span> */}
     </div>
   )
 }

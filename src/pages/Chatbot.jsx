@@ -12,7 +12,7 @@ const Chatbot = () => {
 		}, 
 		{
 			id: '1',
-			message: 'Nice to meet you bro!',
+			message: 'Nice to meet you!',
 			trigger: '2'
 		}, {
 			id: '2',
@@ -65,7 +65,7 @@ const Chatbot = () => {
 		botBubbleColor: '#344c36',
 		headerFontColor: 'white',
 		botFontColor: 'white',
-		userBubbleColor: '#FF5733',
+		userBubbleColor: '#faad1b',
 		userFontColor: 'white',
 	
 	};
@@ -80,7 +80,7 @@ const Chatbot = () => {
 	<div>
 		<ThemeProvider theme={theme}>
                 <ChatBot
-                    headerTitle="K.I.BOT"
+                    headerTitle="CHAT.BOT"
                     steps={steps}
                     {...config}
  

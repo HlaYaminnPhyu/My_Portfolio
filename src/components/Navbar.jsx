@@ -26,7 +26,7 @@ const Navbar = () => {
     { id: 1, name: "HOME", link: "home" },
     { id: 2, name: "ABOUT", link: "about" },
     { id: 3, name: "SERVICES", link: "services" },
-    { id: 4, name: "WORK", link: "work" },
+    { id: 4, name: "PROJECTS", link: "projects" },
     { id: 5, name: "SKILLS", link: "skills" },
     { id: 6, name: "CONTACT", link: "contact" },
   ];
@@ -69,7 +69,7 @@ const Navbar = () => {
           ))}
         </ul>
         <ul
-          className={`text-black lg:text-white mr-0 lg:mr-14 flex flex-col lg:flex-row absolute top-12 right-4 left-4 bottom-4 py-3 lg:py-0 lg:static lg:space-x-9 transition-all duration-300 ${
+          className={` text-black lg:text-white mr-0 lg:mr-14 flex flex-col lg:flex-row absolute py-3 lg:py-0 lg:static lg:space-x-9 transition-all duration-300 top-12 right-4 left-4 bottom-4 ${
             open ? "hidden" : "block lg:bg-transparent"
           }`}
         >
@@ -81,7 +81,7 @@ const Navbar = () => {
                 location.pathname === item.link
                   ? "text-white"
                   : "hover:text-white"
-              } lg:text-[15px] text-white bg-black py-3 lg:py-0 px-5 lg:px-0 font-semibold text-md duration-300 transition-all `}
+              } lg:text-[15px] text-white gla text-start py-3 lg:py-0 px-5 lg:px-0 font-semibold text-md duration-300 transition-all `}
             >
               {item.name}
             </Link>
