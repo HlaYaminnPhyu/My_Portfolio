@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import myImg from "../images/my2.jpg";
-import cv from "../images/cv.pdf";
+import cv from "../images/cv1.pdf";
 
 import "aos/dist/aos.css";
 import {

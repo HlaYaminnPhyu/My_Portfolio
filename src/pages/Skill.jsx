@@ -1,6 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-
-
 import { FaReact, FaBootstrap, FaPhp, FaLaravel } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
